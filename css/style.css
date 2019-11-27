@@ -74,6 +74,55 @@
     padding: 4.5rem 1.5rem;
 }
 
-
-
 /* End Banner Area */
+
+/* Start Gallery Area */
+.site-main .gallery-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .gallery-area .gallery-title h2 {
+    display: block;
+    letter-spacing: 3px;
+    font: normal bold 40px/ 60px var(--montserrat);
+}
+
+.site-main .gallery-area .gallery-title .paragraph > p {
+    padding: .4rem 0;
+}
+
+/* End Gallery Area */
+
+
+/* End Gallery Area */
+
+.site-main .mission-area {
+    padding: 1rem 10rem;
+    margin-bottom: 10rem;
+}
+
+.site-main .mission-area .mission-title h2 {
+    font: normal bold 40px/ 60px var(--montserrat);
+    letter-spacing: 3px;
+}
+
+.site-main .mission-area .single-mission {
+    padding: 2rem 2rem 1rem 1.5rem;
+    margin: .75rem;
+    border: 0.1px solid gainsboro;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-main .mission-area .single-mission:hover {
+    box-shadow: var(--box-shadow);
+}
+
+.site-main .mission-area .single-mission i {
+    margin-bottom: 1rem;
+}
+
+
+/* End Gallery Area */
