@@ -8,11 +8,11 @@
 }
 
 .button {
-    padding: .8rem 2.2rem;
-    font: normal 500 16px/20px var(--montserrat);
+    padding: 1.2rem 2.2rem;
+    font: normal 500 13px/20px var(--montserrat);
     position: relative;
     border: 3px solid transparent;
-    border-radius: 10rem;
+    border-radius: 1rem;
 }
 
 .button.primary-button{
@@ -38,7 +38,7 @@
     background: var(--gradient-color);
     content: '';
     z-index: -1;
-    border-radius: 10rem;
+    border-radius: 1rem;
 }
 
 .button.secondary-button{
@@ -56,4 +56,17 @@
 p.para {
     color: var(--text-color);
     font: normal 500 16px/ 25px var(--montserrat);
+}
+
+p.para.para-article{
+    margin: 1.75rem 0;
+}
+
+p.para.para-quote {
+    padding: 2rem;
+    background-color: var(--border-color);
+}
+
+.pagination {
+    margin: 5rem 0 12.5rem 0;
 }

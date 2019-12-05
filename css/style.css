@@ -9,15 +9,14 @@
 
 /* Start Navigation */
 .header_area .main-menu .navbar .navbar-brand {
-    padding: 0 2rem 0 5rem;
 }
 
 .header_area .main-menu .navbar {
-    padding: 1rem 7.5rem;
+    padding: 1rem 10rem;
 }
 
 .header_area .main-menu .nav-item .nav-link {
-    font: normal 500 15px/2px var(--montserrat);
+    font: normal 500 1.5rem/2px var(--montserrat);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -43,17 +42,17 @@
 .site-main .site-banner {
     background: url(../img/home-banner.png);
     background-position: center;
-    min-height: 80vh;
+    min-height: 85vh;
 }
 
 .site-main .site-banner .site-title h1{
     padding-top: 20%;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .site-main .site-banner .site-title h3 {
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .site-main .site-banner .site-title h3::after {
@@ -66,7 +65,7 @@
 }
 
 .site-main .site-banner .site-title p {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-style: italic;
 }
 
@@ -76,8 +75,49 @@
 
 /* End Banner Area */
 
+
+
+/* Start Mission Area */
+
+.site-main .mission-area {
+    padding: 1rem 10rem;
+    margin: 10rem 0;
+}
+
+.site-main .mission-area .mission-title h2 {
+    font: normal bold 40px/ 60px var(--montserrat);
+    letter-spacing: 3px;
+}
+
+.site-main .mission-area .single-mission {
+    padding: 3rem 3rem 2rem 3rem;
+    margin: .75rem;
+    border: 0.1px solid gainsboro;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-main .mission-area .single-mission .icon-mission {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.site-main .mission-area .single-mission:hover {
+    box-shadow: var(--box-shadow);
+}
+
+.site-main .mission-area .single-mission i {
+    margin-bottom: 1rem;
+}
+
+/* End Mission Area */
+
+
 /* Start Gallery Area */
 .site-main .gallery-area {
+    margin: 10rem 0;
     padding: 8rem 5rem;
 }
 
@@ -94,35 +134,138 @@
 /* End Gallery Area */
 
 
-/* End Gallery Area */
+/* Start News Area */
 
-.site-main .mission-area {
-    padding: 1rem 10rem;
-    margin-bottom: 10rem;
+.site-main .news-area {
+    font: normal 500 15px/20px var(--montserrat);
+    margin: 10rem;
 }
 
-.site-main .mission-area .mission-title h2 {
+.site-main .news-area .news-heading h2 {
+    font: normal bold 4rem/ 6rem var(--montserrat);
+    letter-spacing: 3px;
+}
+
+.site-main .news-area a {
+    color: var(--title-color);
+    text-decoration: none;
+}
+
+.site-main .news-area .news-side .news-side-box {
+    padding: 3rem;
+}
+
+.news-area .news-content .news-box {
+    padding: 1.5rem;
+}
+
+.news-content .news-box img {
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 1.25rem;
+}
+
+.news-content .news-box h5 {
+    font-size: 1.8rem;
+}
+
+.news-content .news-box h5 a:hover {
+    color: var(--primary-color);
+}
+
+.news-content .news-box p {
+    font-size: 1.5rem;
+}
+
+.news-category-box {
+    margin: 1.25rem 0;
+}
+
+.news-category-box .news-category a {
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    padding: .5rem 1rem;
+    margin-right: .25rem;
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+.news-category-box .news-category a:hover {
+    background: var(--primary-color-2);
+}
+
+.news-area .news-side .news-side-box h2 {
+    margin-bottom: 2rem;
+}
+
+.news-area .news-side .news-side-box img {
+    margin-bottom: 2rem;
+}
+
+.news-user-post {
+    margin-bottom: 1.5rem;
+}
+
+.news-user-post .news-user-description .news-user-name{
+    margin-bottom: -.25rem;
+}
+
+.news-user-post .news-user-description .news-user-date {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.news-user-post img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+/* End News Area */
+
+/* Start Downloads Area */
+
+.downloads-area {
+    font: normal 500 15px/20px var(--montserrat);
+    margin-bottom: 15rem;
+}
+
+.downloads-area .col-md-12 h2 {
+    margin-bottom: 2rem;
+}
+
+.downloads-area .downloads-heading {
+    margin-bottom: 2rem;
+}
+
+.downloads-area .downloads-heading h2 {
     font: normal bold 40px/ 60px var(--montserrat);
     letter-spacing: 3px;
 }
 
-.site-main .mission-area .single-mission {
-    padding: 2rem 2rem 1rem 1.5rem;
-    margin: .75rem;
-    border: 0.1px solid gainsboro;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.downloads-area .downloads-item {
+    margin-bottom: 2rem;
 }
 
-.site-main .mission-area .single-mission:hover {
-    box-shadow: var(--box-shadow);
+.downloads-area .downloads-item .icon-pdf {
+    color: var(--primary-color);
+    margin-right: 2.2rem;
 }
 
-.site-main .mission-area .single-mission i {
-    margin-bottom: 1rem;
+/* End Downloads Area */
+
+
+/* Start Footer Area */
+
+.footer {
+    font-family: var(--montserrat);
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    background: var(--primary-color);
+    color: #fff;
 }
 
-
-/* End Gallery Area */
+/* End Footer Area */
